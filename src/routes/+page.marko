@@ -1,0 +1,9 @@
+<micro-frame
+  fetch(url, options) {
+    return globalThis.__marko_run__.fetch(
+      new Request(url, options),
+      $global.platform,
+    );
+  }
+  src="/subpage"
+/>

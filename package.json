@@ -1,0 +1,22 @@
+{
+  "name": "marko-run-micro-frame-bug",
+  "version": "1.0.0",
+  "description": "Bug",
+  "private": true,
+  "keywords": [],
+  "author": "Voon Siong WONG",
+  "license": "ISC",
+  "dependencies": {
+    "@micro-frame/marko": "^1.10.1"
+  },
+  "devDependencies": {
+    "@marko/run": "^0.4.12"
+  },
+  "scripts": {
+    "build": "NODE_ENV=production marko-run build",
+    "dev": "marko-run dev",
+    "preview": "marko-run preview",
+    "start": "NODE_ENV=production node dist/index.mjs"
+  },
+  "type": "module"
+}
